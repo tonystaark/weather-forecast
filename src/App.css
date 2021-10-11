@@ -1,38 +1,61 @@
-.App {
-  text-align: center;
+@import "~antd/dist/antd.css";
+
+.demo {
+  margin: 16px;
+}
+.demo-nav {
+  height: 30px;
+  margin-bottom: 16px;
+  line-height: 30px;
+  background: #f8f8f8;
+}
+.demo-nav a {
+  padding: 0 8px;
+  line-height: 30px;
+}
+.climate-list {
+  margin-top: 16px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.section-header {
+  background: #f8f8f8;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.ant-divider-horizontal {
+  margin: 0;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.ant-layout-content {
+  padding: 16px 24px;
 }
 
-.App-link {
-  color: #61dafb;
+.result-section {
+  padding: 30px;
+  height: 200px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.big-font {
+  font-size: 2.3rem;
+  font-weight: 800;
+  padding-bottom: 0;
+}
+
+.place-font {
+  margin-bottom: 0;
+}
+
+.ant-descriptions-row > td {
+  padding-bottom: 0;
+}
+
+.site-page-header {
+  padding-top: 50px;
+}
+
+.ant-table {
+  background: inherit;
+}
+
+.search-button {
+  margin-right: 20px;
 }
